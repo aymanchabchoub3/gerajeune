@@ -1,0 +1,37 @@
+name: gerajeune
+description: A new Flutter project.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: ^6.0.9
+  camera: ^0.10.0+4
+  google_ml_kit: ^0.11.0
+  path_provider: ^2.0.11
+  path: ^1.8.3
+  permission_handler: ^10.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  assets:
+    - assets/images/
+    - assets/photos/
+
+  # Uncomment and add your custom fonts if needed
+  # fonts:
+  #   - family: YourFontFamily
+  #     fonts:
+  #       - asset: fonts/YourFont-Regular.ttf
+  #       - asset: fonts/YourFont-Bold.ttf
+  #         weight: 700
